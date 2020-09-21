@@ -67,7 +67,7 @@ function randomFace() {
 }
 
 function randomName() {
-    const syllables = ['gleeb', 'norp', 'borf', 'shlub', 'seep', 'beeb', 'sneep', 'plob', 'blork', 'nob', 'fleeb', 'reed', 'clop', 'starg', 'kip', 'stug', 'spug', 'scub'];
+    const syllables = ['gleeb', 'norp', 'borf', 'shlub', 'seep', 'beeb', 'sneep', 'plob', 'blork', 'nob', 'fleeb', 'reed', 'clob', 'starg', 'kip', 'stug', 'spug', 'scub'];
     let firstName = '';
     let lastName = '';
     let randomSyllable;
