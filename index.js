@@ -56,8 +56,8 @@ function randomFace() {
         { open: '|', close: '|' },
         { open: 'ʕ', close: 'ʔ' }
     ];
-    const eyes = ['o', 'Ծ', '*', 'O', '°', '0', 'ಠ', 'ᵔ', '•', '◕', '°', 'ʘ', 'ᵕ', '♥'];
-    const mouths = ['w', '_', '-', 'v', 'u', 'ᴥ', '‿', '︿', '﹏', '‿‿'];
+    const eyes = ['o', 'Ծ', '*', 'O', '°', '0', 'ಠ', 'ᵔ', '•', '◕', '°', 'ʘ', '♥'];
+    const mouths = ['w', '_', '-', 'ᴥ', '‿', '︿', '﹏', 'ᵕ', '‿‿'];
 
     const cheek = getRandomEntry(cheeks);
     const eye = getRandomEntry(eyes);
@@ -67,7 +67,7 @@ function randomFace() {
 }
 
 function randomName() {
-    const syllables = ['gleeb', 'norp', 'borf', 'shlub', 'seep', 'beeb', 'sneep', 'plob', 'blork', 'nob', 'fleeb', 'reed', 'clop', 'starg', 'drick', 'stug', 'spug', 'scub'];
+    const syllables = ['gleeb', 'norp', 'borf', 'shlub', 'seep', 'beeb', 'sneep', 'plob', 'blork', 'nob', 'fleeb', 'reed', 'clop', 'starg', 'kip', 'stug', 'spug', 'scub'];
     let firstName = '';
     let lastName = '';
     let randomSyllable;
