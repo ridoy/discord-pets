@@ -56,8 +56,8 @@ function randomFace() {
         { open: '|', close: '|' },
         { open: 'ʕ', close: 'ʔ' }
     ];
-    const eyes = ['o', '.', '*', 'O', '°', '0', 'ಠ', 'ᵔ', '•', '◕', '°', 'ʘ', '◡'];
-    const mouths = ['w', '_', '-', 'v', 'u', 'ᵕ', 'ᴥ', '‿', '︿', '﹏'];
+    const eyes = ['o', 'Ծ', '*', 'O', '°', '0', 'ಠ', 'ᵔ', '•', '◕', '°', 'ʘ', 'ᵕ', '♥'];
+    const mouths = ['w', '_', '-', 'v', 'u', 'ᴥ', '‿', '︿', '﹏', '‿‿'];
 
     const cheek = getRandomEntry(cheeks);
     const eye = getRandomEntry(eyes);
